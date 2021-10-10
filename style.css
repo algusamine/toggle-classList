@@ -33,3 +33,35 @@
 .toggle.active {
     background-color: red;
 }
+.number1, .number2, .number3, .number4, .group-one, .group-two, .group-three, .group-four{
+   height: 100px;
+   width: 100px;
+   color: white;
+   background-color: aqua;
+   margin: 20px;
+   text-align: center;
+   padding: 35px;
+   font-size: 40px;
+   font-weight: bold;
+   display: inline-block;
+   justify-content: flex-start;
+}
+.group-one, .group-two, .group-three, .group-four{
+   background-color: green;
+   height: 35px;
+   font-size: 18px;
+   font-weight: bold;
+   cursor: pointer;
+}
+ 
+.group-one:hover, .group-two:hover, .group-three:hover, .group-four:hover{
+   background-color:red;
+   height: 45px;
+   font-size: 23px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.hidden{
+   display: none;
+}
+

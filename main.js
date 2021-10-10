@@ -15,4 +15,26 @@ document.querySelector('button').addEventListener('click', switchColors)
         document.querySelector('#hide').textContent = 'Make it appear!'
       } 
     }
+    let numbers = [1, 2, 3, 4];
+   numbers.forEach(x => {
+     let individualDiv = document.createElement('div');
+     individualDiv.className = `number${x}`;
+     let number = document.createElement('p');
+     number.textContent = x;
+     individualDiv.append(number);
+     document.querySelector('#numbers').append(individualDiv)
+   })
+
+   document.querySelector('.group-one').addEventListener('click', ()=> {
+     document.querySelector(`.number1`).classList.toggle('hidden')
+   })
+   document.querySelector('.group-two').addEventListener('click', ()=> {
+    document.querySelector(`.number2`).classList.toggle('hidden')
+   })
+   document.querySelector('.group-three').addEventListener('click', ()=> {
+    document.querySelector(`.number3`).classList.toggle('hidden')
+   })
+   document.querySelector('.group-four').addEventListener('click', ()=> {
+    document.querySelector(`.number4`).classList.toggle('hidden')
+   })
     
