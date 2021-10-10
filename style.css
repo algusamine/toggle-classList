@@ -1,0 +1,35 @@
+#hide, #hide-me{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-left: 35%;
+    cursor: pointer;
+}
+
+#hide-me{
+    background-color: rgb(236, 59, 59);
+    color: white;
+    margin-top: 100px;
+}
+.toggle, .toggle.active{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.toggle.active {
+    background-color: red;
+}
